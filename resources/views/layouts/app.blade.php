@@ -16,7 +16,7 @@
 
     {{-- NAVBAR START --}}
 
-    <header class="fixed inset-x-0 top-0 z-50 transition-colors duration-300" id="mainHeader"
+    <header class="fixed inset-x-0 top-0 z-999 transition-colors duration-300" id="mainHeader"
         data-page="{{ request()->routeIs('home') ? 'home' : 'other' }}">
         <nav aria-label="Global" class="mx-auto flex items-center justify-between p-4 lg:px-8">
             <div class="flex items-center lg:flex-1 gap-4">
@@ -221,7 +221,7 @@
 
 
     {{-- Statistik Kunjungan --}}
-    <div class="fixed bottom-3 right-3 z-50 group">
+    <div class="fixed bottom-3 right-3 z-999 group">
         <div
             class="flex items-center gap-3 px-3 py-3 sm:px-6 sm:min-w-[250px] min-w-0 bg-custom-3 shadow-xl rounded-full sm:rounded-2xl border border-gray-500 hover:shadow-2xl sm:flex group-hover:!w-fit sm:!w-auto transition-all duration-300 cursor-pointer w-fit">
             <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white text-custom-3 shadow-md">
